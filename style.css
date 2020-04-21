@@ -1,0 +1,112 @@
+
+header {
+  position: relative;
+  height: 200px;
+  background-image: linear-gradient(#20B2AA, #663399);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+}
+
+h1 {
+  margin: 0;
+  padding: 45px 0;
+  font: 70px "Segoe Script", "Arial", sans-serif;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+h2 {
+    font: 50px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+    text-align: center;
+    padding: 15px 0px 25px 0px;
+}
+body {
+    font: 28px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+}
+
+body img {
+    max-width: 100%;
+    padding: 25px 25px 25px 25px;
+}
+
+body ul {
+    list-style-type: none;
+    padding: 25px 0px 75px 35px;
+}
+
+.code a:link {
+    max-width: 90%;
+    max-height: auto;
+    background: black;
+    padding: 20px;
+    border: 30px solid #999;
+}
+
+ul a:link, a:visited {
+  background-color: #ff7f50;
+  color: black;
+  padding: 50px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul a:hover, a:active {
+  background-color: orange;
+}
+
+
+
+footer {
+    font: 14px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #663399;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 175px;
+    }
+    h1 {
+       font-size: 60px; 
+        padding: 30px 0;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    body {
+        font-size: 22px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100px;
+    }
+    h1 {
+       font-size: 40px; 
+        padding: 30px 0;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    body {
+        font-size: 14px;
+    }
+    footer {
+        font-size: 10px;
+    }
+}
