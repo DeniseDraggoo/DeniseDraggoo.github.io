@@ -8,16 +8,27 @@ header {
 }
 
 .home_button {
+    font-size: 20px;
+    font-family: "Segoe Script";
     text-align: right;
-    color: yellow;
-    border: 5px solid yellow;
+    padding: 5px 5px 0 0;
+}
+
+.home_button a {
+    text-decoration: none;
+}
+
+.home_button span {
+    background-color: darkorange;
+    color: darkblue;
 }
 
 h1 {
   margin: 0;
-  padding: 45px 0;
+  padding: 0px 0;
   font: 70px "Segoe Script", "Arial", sans-serif;
   text-align: center;
+  line-height: 0;
 }
 
 header h1 {
@@ -27,7 +38,6 @@ header h1 {
 h2 {
     font: 50px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
     text-align: center;
-    padding: 15px 0px 0px 0px;
 }
 body {
     font: 28px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
@@ -40,7 +50,7 @@ body img {
 
 body ul {
     list-style-type: none;
-    padding: 25px 0px 75px 35px;
+    padding: 0px 0px 45px 35px;
 }
 
 .code {
@@ -49,17 +59,23 @@ body ul {
     margin-right: auto;
     max-width: 75%;
     max-height: auto;
-    background: black;
-    padding: 1px;
+    border-width: 5px 15px 5px 5px;
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
 }
 
 ul a:link, a:visited {
-  background-color: #ff7f50;
+  background-color: darkorange;
+  border: none;
   color: black;
-  padding: 40px 25px;
+  padding: 20px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 20px;
+   border-radius: 40px;
+    width: 165px;
 }
 
 ul a:hover, a:active {
@@ -87,13 +103,13 @@ footer {
     }
     h1 {
        font-size: 60px; 
-        padding: 30px 0;
+        padding: 45px 0;
     }
     h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
     body {
-        font-size: 22px;
+        font-size: 16px;
     }
     footer {
         font-size: 14px;
@@ -105,16 +121,20 @@ footer {
         height: 100px;
     }
     h1 {
-       font-size: 40px; 
-        padding: 30px 0;
+       font-size: 35px; 
+        padding: 15px 0;
     }
     h2 {
-        font-size: 18px;
+        font-size: 25px;
     }
     body {
         font-size: 14px;
     }
     footer {
         font-size: 10px;
+    }
+    ul a:link, a:visited {
+        font-size: 14px;
+        padding: 10px 0px;
     }
 }
