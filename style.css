@@ -7,6 +7,12 @@ header {
   border-bottom-right-radius: 50% 40%;
 }
 
+.home_button {
+    text-align: right;
+    color: yellow;
+    border: 5px solid yellow;
+}
+
 h1 {
   margin: 0;
   padding: 45px 0;
@@ -21,7 +27,7 @@ header h1 {
 h2 {
     font: 50px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
     text-align: center;
-    padding: 15px 0px 25px 0px;
+    padding: 15px 0px 0px 0px;
 }
 body {
     font: 28px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
@@ -37,18 +43,20 @@ body ul {
     padding: 25px 0px 75px 35px;
 }
 
-.code a:link {
-    max-width: 90%;
+.code {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
     max-height: auto;
     background: black;
-    padding: 20px;
-    border: 30px solid #999;
+    padding: 1px;
 }
 
 ul a:link, a:visited {
   background-color: #ff7f50;
   color: black;
-  padding: 50px 25px;
+  padding: 40px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
