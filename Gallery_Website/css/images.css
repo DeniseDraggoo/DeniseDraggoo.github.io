@@ -3,7 +3,7 @@ Images - reset
 --------------------------------------------------------------*/
 .site-branding {
     background-image: url(../images/genricBooks/bookteaOpacity40.jpg);
-    height: 500px;
+    height: 350px;
 }
 
 .memberPhotos img {
@@ -77,13 +77,18 @@ Images - reset
     height: 250px;
     width: auto;
     display: block;
-    margin-left: 5px;
-    margin-right: 5px;
     padding-bottom: 25px;
+    vertical-align: middle; /* can't get to work */
 }
 
 
 @media (min-width: 370px) {
+    .site-branding {
+        background-image: url(../images/genricBooks/bookteaOpacity40.jpg);
+        height: 500px;
+}
+    
+    
     .lindley, 
     .michelle, 
     .sarah, 
@@ -122,6 +127,13 @@ Images - reset
 }
 
 @media (min-width: 780px) {
+    
+    
+    .site-branding {
+    background-image: url(../images/genricBooks/bookteaOpacity40.jpg);
+    height: 500px;
+}
+    
     .lindley
     .michelle
     .sarah
