@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+.content {
+    background: #e6ffe6;
+}
+
+.footer-area {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: midnightblue;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+    .footer-area p {
+        font-size: 10px;
+    }
+
+}
+
+@media (min-width: 800px) {
+
+}

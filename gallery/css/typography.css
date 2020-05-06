@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+h1 a {
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: darkblue;
+    position: absolute;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    text-align: center;
+}
+
+.main-area p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 25px;
+}
+
+@media (min-width: 400px) {
+    h1 a {
+        font-size: 80px;
+        text-align: center;
+        text-decoration: none;
+        color: darkblue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .main-area p {
+        font-size: 20px;
+        max-width: 600px;
+        padding: 20px 20%;
+    }
+
+@media (min-width: 800px) {
+h1 a {
+    font-size: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: darkblue;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+        .main-area p {
+            font-size: 22px;
+            max-width: 500px;
+            padding: 20px 30%;
+    }
+}
