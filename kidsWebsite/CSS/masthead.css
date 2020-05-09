@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+
+.parents {
+  background-color: lightskyblue;
+  border: 10px solid darkblue;
+  border-radius: 50px;
+  
+}
+
+header {
+  padding: 5px;
+  background: purple;
+  display: grid; 
+    grid-template-columns: 30% 50%;
+}
+
+
+
+
+/* -----------AT MEDIA 400PX-------------- */
+@media screen and (min-width: 400px) {
+.parents {
+  background-color: lightskyblue;
+  border: 10px solid darkblue;
+  width: 80%;
+    border-radius: 50px;
+  
+}
+
+header {
+  padding: 5px;
+  background: purple;
+  display: grid; 
+    grid-template-columns: 25% 70%;
+}
+}
+
+
+
+/* -----------AT MEDIA 800PX-------------- */
+
+@media screen and (min-width: 800px) {
+.parents {
+  background-color: lightskyblue;
+  border: 10px solid darkblue;
+  width: 80%;
+    border-radius: 50px;
+  
+}
+
+header {
+  padding: 5px;
+  background: purple;
+  display: grid; 
+    grid-template-columns: 25% 70%;
+}
+}

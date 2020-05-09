@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+Images - reset 
+--------------------------------------------------------------*/
+.main-area img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+@media screen and (min-width: 350px) {
+    .main-area img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .main-area img {
+        width: 200px;
+        height: auto;
+    }
+}

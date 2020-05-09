@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+.parents {
+    text-align: center;
+    padding: 25% 5%;
+}
+
+.parents a {
+    font: 20px "Arial";
+    font-weight: 700;
+    color: darkblue;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 5% 5%;
+    font: 45px "Arial";
+    text-align: right;
+}
+
+@media screen and (min-width: 400px) {
+    .parents {
+        text-align: center;
+        padding: 25%;
+    }
+    .parents a {
+        font: 30px "Arial";
+        font-weight: 700;
+        color: darkblue;
+        text-decoration: none;
+    }
+    h1 {
+        color: white;
+        margin: 0;
+        padding: 5px 25px;
+        font: 65px "Arial";
+        text-align: right;
+    }
+}
+@media screen and (min-width: 800px) {
+    .parents {
+        text-align: center;
+        padding: 5%, 0;
+}
+    .parents a {
+        font: 40px "Arial";
+        font-weight: 700;
+        color: darkblue;
+        text-decoration: none;
+    }
+    h1 {
+        color: white;
+        margin: 0;
+        padding: 1% 0px;
+        font: 85px "Arial";
+        text-align: right;
+    }
+}
+
+
