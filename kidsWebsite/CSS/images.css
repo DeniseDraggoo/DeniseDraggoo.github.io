@@ -2,10 +2,10 @@
 Images - reset 
 --------------------------------------------------------------*/
 .main-area img {
-    width: 100px;
+    width: 75px;
     height: auto;
+    padding: 10%
 }
-
 
 
 @media screen and (min-width: 350px) {
