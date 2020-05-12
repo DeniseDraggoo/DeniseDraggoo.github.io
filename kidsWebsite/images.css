@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+Images - reset 
+--------------------------------------------------------------*/
+.main {
+        height: 50px;
+        width: auto;
+    }
+.planet_image {
+    height: auto;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+@media screen and (min-width: 350px) {
+
+}
+@media screen and (min-width: 800px) {
+    .planet_image {
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+}
+    
+}
