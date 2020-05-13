@@ -6,7 +6,6 @@ Header styles minus menu
   background-color: lightskyblue;
   border: 10px solid darkblue;
   border-radius: 50px;
-  
 }
 
 header {
@@ -43,10 +42,12 @@ header {
 
 @media screen and (min-width: 800px) {
 .parents {
+  max-height: 50px;
+  max-width: 50px;
   background-color: lightskyblue;
   border: 10px solid darkblue;
-  width: 80%;
-    border-radius: 50px;
+  width: 55%;
+  border-radius: 50px;
   
 }
 

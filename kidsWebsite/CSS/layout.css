@@ -5,12 +5,17 @@ Layouts
 body {
     background-image: url("../images/stars.jpg");
     background-position: center;
-    background-size: 50%;
+    background-size: 30%;
+}
+
+main {
+    padding: 0 0 75px 0;
 }
 
 .content {
     padding: 2em;
 }
+
 
 footer {
    position:fixed;
@@ -25,15 +30,13 @@ footer {
 }
 
 @media (min-width: 320px) {
-    img {
-        max-width: 400px;
-        max-height: auto;
-    }
+
 }
 
 @media (min-width: 800px) {
-    img {
-        min-width: 700px;
-        max-height: auto;
-    }
+ body {
+    background-image: url("../images/stars.jpg");
+    background-position: center;
+    background-size: 20%;
+}
 }

@@ -7,19 +7,33 @@ Typography
 }
 
 .parents a {
-    font: 20px "Arial";
+    text-align: center;
+    font: 20px "Arial", sans-serif;
     font-weight: 700;
     color: darkblue;
     text-decoration: none;
 }
 
 h1 {
+    
     color: white;
     margin: 0;
     padding: 5% 5%;
-    font: 45px "Arial";
+    font: 45px "Arial", sans-serif;
     text-align: right;
+    text-justify: right;
+    float: right;
 }
+
+figure > * {    
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 150px 0 0 0;
+}
+
 
 @media screen and (min-width: 400px) {
     .parents {
@@ -27,7 +41,7 @@ h1 {
         padding: 25%;
     }
     .parents a {
-        font: 30px "Arial";
+        font: 30px "Arial", sans-serif;
         font-weight: 700;
         color: darkblue;
         text-decoration: none;
@@ -36,9 +50,10 @@ h1 {
         color: white;
         margin: 0;
         padding: 5px 25px;
-        font: 65px "Arial";
+        font: 65px "Arial", sans-serif;
         text-align: right;
     }
+
 }
 @media screen and (min-width: 800px) {
     .parents {

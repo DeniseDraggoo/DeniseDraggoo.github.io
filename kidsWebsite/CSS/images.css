@@ -1,23 +1,29 @@
 /*--------------------------------------------------------------
 Images - reset 
 --------------------------------------------------------------*/
-.main-area img {
-    width: 75px;
-    height: auto;
-    padding: 10%
+.main {
+        height: 50px;
+        width: auto;
+    }
+.planet_image {
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 
 @media screen and (min-width: 350px) {
-    .main-area img {
-        width: 200px;
-        height: auto;
-    }
-}
 
+}
 @media screen and (min-width: 800px) {
-    .main-area img {
-        width: 200px;
+    .planet_image {
         height: auto;
-    }
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+}
+    
 }
