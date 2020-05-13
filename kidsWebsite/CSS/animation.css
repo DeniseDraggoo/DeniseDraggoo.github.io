@@ -1,0 +1,24 @@
+/*--------------------------------------------------------------
+Images - reset 
+--------------------------------------------------------------*/
+figure img {
+  animation: rotation 30s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+@media screen and (min-width: 350px) {
+
+}
+@media screen and (min-width: 800px) {
+
+    
+}
