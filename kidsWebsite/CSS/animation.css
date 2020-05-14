@@ -1,8 +1,9 @@
 /*--------------------------------------------------------------
 Images - reset 
 --------------------------------------------------------------*/
-figure img {
-  animation: rotation 30s infinite linear;
+.content figure img,
+.sun_icon           {
+  animation: rotation 60s infinite linear;
 }
 
 @keyframes rotation {
