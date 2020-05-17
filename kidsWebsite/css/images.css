@@ -9,22 +9,35 @@ Images - reset
     margin-right: auto;
 }
 
-.sun_icon {
-    height: 25px;
+#sunIcon {
+    height: 35px;
     width: auto;
 }
 
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 450px) {
 
+    .planet_image {
+        height: 25px;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sunIcon {
+        height: 300px;
+        width: auto;
+    }
 }
 @media screen and (min-width: 800px) {
     .planet_image {
-        height: auto;
-        display: block;
+        height: 100px;
+        width: auto;
         margin-left: auto;
         margin-right: auto;
-        width: 25%;
-}
-    
+    }
+    .sunIcon {
+        height: 100px;
+        width: auto;
+    }
 }

@@ -3,7 +3,7 @@ Images - reset
 --------------------------------------------------------------*/
 .content figure img,
 .sun_icon           {
-  animation: rotation 60s infinite linear;
+  animation: rotation 30s infinite linear;
 }
 
 @keyframes rotation {
