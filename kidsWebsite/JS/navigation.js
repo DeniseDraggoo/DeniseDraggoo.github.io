@@ -2,8 +2,8 @@
 Navigation styles
 ------------------------------------------------------------*/
 
-$("sunIcon").click(function(){
-  $("sunIcon").animate({height: "300px"});
+$("#sunIcon").click(function(){
+  $("#sunIcon").animate({height: "300px"} 3000);
 }); 
 
 
