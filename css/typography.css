@@ -1,0 +1,53 @@
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+.parents h2 {
+    text-align: center;
+}
+
+h2 {
+    font: 35px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+    text-align: center;
+}
+body {
+    font: 28px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+}
+
+
+
+@media screen and (min-width: 400px) {
+   h1 {
+       font-size: 35px; 
+        padding: 15px 0;
+    }
+    h2 {
+        font-size: 25px; 
+    }
+    body {
+        font-size: 14px;
+    }
+    ul a:link, a:visited {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+    footer {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 800px) {
+    h1 {
+       font-size: 100px; 
+        padding: 60px 0;
+    }
+    h2 {
+        font-size: 35px;
+    } 
+    body {
+        font-size: 16px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
+
+

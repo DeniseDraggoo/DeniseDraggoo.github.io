@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+header {
+  position: relative;
+  width: auto;
+  height: 100px;
+  background-image: linear-gradient(#20B2AA, #663399);
+  border-bottom-left-radius: 50% 40%;
+  border-bottom-right-radius: 50% 40%;
+}
+
+h1 {
+  margin: 0;
+  padding: 15px 0;
+  font: 33px "Segoe Script", "Arial", sans-serif;
+  text-align: center;
+  line-height: 0;
+}
+
+header h1 {
+  color: white;
+}
+
+
+
+/* -----------AT MEDIA 400PX-------------- */
+@media screen and (min-width: 400px) {
+header {
+        height: 100px;
+    }
+}
+
+
+
+/* -----------AT MEDIA 800PX-------------- */
+
+@media screen and (min-width: 800px) {
+    header {
+        height: 175px;
+    }
+}

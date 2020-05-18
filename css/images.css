@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+Images - reset 
+--------------------------------------------------------------*/
+
+
+body img {
+    height: 150px;
+    width: auto;
+}
+
+
+
+@media screen and (min-width: 500px) {
+  body img {
+    height: 100px;
+    width: auto;
+    }  
+}
+
+@media screen and (min-width: 800px) {
+    
+}
