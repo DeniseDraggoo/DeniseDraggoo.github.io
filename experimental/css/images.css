@@ -2,10 +2,24 @@
 Images
 --------------------------------------------------------------*/
 
-
+.main-area img {
+    width: 200px;
+    height: auto;
+    border-radius: 25%
+    display: block;
+    padding-bottom: 25px;
 }
 
 figure {
     margin: 0;
     padding: 0;
+}
+
+
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 800px) {
+
 }

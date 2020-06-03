@@ -1,14 +1,36 @@
 .sticker {
-    width: 80px;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
-// add image
-.gallery img {
-    background-image: url("../images/beadcrochet.jpg");
+/* add image */
+.beads .sticker-img {
+    background-image: url(../images/pearls-jewels-jewelry-crafts.jpg);
+    background-size: cover;
 }
 
-// change shadow opacity
-.example-2 .sticker-shadow {
-    opacity: 0.6;
+@media (min-width: 400px) {
+    .sticker {
+        width: 250px;
+        height: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .sticker {
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
