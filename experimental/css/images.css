@@ -2,17 +2,11 @@
 Images
 --------------------------------------------------------------*/
 
-.main-area img {
-    width: 200px;
-    height: auto;
-    border-radius: 25%
-    display: block;
-    padding-bottom: 25px;
-}
 
-figure {
-    margin: 0;
-    padding: 0;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
 }
 
 

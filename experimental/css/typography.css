@@ -1,14 +1,60 @@
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
+
+
+h1 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: darkblue;
+    padding-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
 p {
-	font-size: 18px;
+    color: black;
+    font-size: 20px;
 }
 
-@media screen and (min-width: 1000px) {
+.carousel-inner p {
+    font-size: 15px;
+    color: yellow;
+}
+
+@media (min-width: 400px) {
+    h1 a {
+        font-size: 80px;
+        text-align: center;
+        text-decoration: none;
+        color: darkblue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
     p {
-        font-size: 30px;
-}
+    font-size: 25px;
+    color: yellow;
+    }
 }
 
+@media (min-width: 800px) {
+h1 a {
+    font-size: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: darkblue;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.carousel-inner p {
+    font-size: 35px;
+    color: yellow;
+}
 
+}
