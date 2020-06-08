@@ -11,9 +11,17 @@ Images
 
 
 @media (min-width: 400px) {
-
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 50%;
+        margin: auto;
+    }
 }
 
 @media (min-width: 800px) {
-
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 30%;
+        margin: auto;
+    }
 }
