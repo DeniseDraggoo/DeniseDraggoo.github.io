@@ -1,6 +1,35 @@
 /*--------------------------------------------------------------
 Layouts
 --------------------------------------------------------------*/
+body {
+    padding-bottom: 75px;
+}
+
+
+.design-links img {
+    width: 25%;
+    height: auto;
+    padding: 15px;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 25px;  
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
 
 .content {
     background: #e6ffe6;

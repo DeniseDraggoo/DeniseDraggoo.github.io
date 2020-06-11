@@ -2,3 +2,59 @@
 Header styles minus menu
 --------------------------------------------------------------*/
 
+header {
+  width: auto;
+  height: 100px;
+  background-color: #215E21;
+    padding-top: 1px
+}
+
+h1, h1 a {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  margin: auto;
+  width: 100%;
+  padding: 12px 5px; 
+}
+
+header h1 {
+  color: white;
+}
+
+.books-menu {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    justify-content: center;
+    color: white;
+    background-color: #2C8BB9;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 15px;
+    font-family: "Franklin Gothic Medium", sans-serif;
+
+
+/* -----------AT MEDIA 400PX-------------- */
+@media screen and (min-width: 400px) {
+header {
+        height: 100px;
+    }
+}
+
+
+
+/* -----------AT MEDIA 800PX-------------- */
+
+@media screen and (min-width: 800px) {
+    header {
+        height: 175px;
+    }
+}

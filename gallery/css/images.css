@@ -63,9 +63,9 @@ Images - reset
         border-radius: 25px;
     }
 
-.homeCurrentlyReading img {
-    height: 350px;
-    width: auto;
+.homeCurrentlyReading {
+    height: auto;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -78,11 +78,14 @@ Images - reset
     width: auto;
     display: block;
     padding-bottom: 25px;
-    vertical-align: middle; /* can't get to work */
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 
-@media (min-width: 370px) {
+@media (min-width: 400px) {
     .site-branding {
         background-image: url(../images/genricBooks/bookteaOpacity40.jpg);
         height: 500px;

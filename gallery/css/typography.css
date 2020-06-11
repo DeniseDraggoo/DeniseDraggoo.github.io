@@ -1,24 +1,24 @@
 /*--------------------------------------------------------------
 Typography
 --------------------------------------------------------------*/
-h1 a {
-    font-size: 60px;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    color: darkblue;
-    position: absolute;
 
-    left: 50%;
-    transform: translate(-50%, -50%);
+h2, h2 a{
+    text-align: center;
+    color: forestgreen
 }
-
-h2 {
+#mood-board {
     text-align: center;
+    font-weight: 900;
+    text-decoration: none;
 }
 
 .main-area p {
     font-size: 18px;
+    text-align: justify;
+    padding: 25px;
+}
+
+.gallery-design {
     text-align: justify;
     padding: 25px;
 }
