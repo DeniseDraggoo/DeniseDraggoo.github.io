@@ -10,12 +10,14 @@ header {
   border-bottom-right-radius: 50% 40%;
 }
 
-h1 {
+h1, h1 a {
   margin: 0;
   padding: 15px 0;
-  font: 33px "Segoe Script", "Arial", sans-serif;
+  font-family: 'Cookie', cursive;
   text-align: center;
   line-height: 0;
+  font-size: 60px; 
+  padding: 15px 0;
 }
 
 header h1 {

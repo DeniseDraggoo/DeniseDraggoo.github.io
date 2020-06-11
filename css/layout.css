@@ -5,6 +5,9 @@ Layouts
 /*.button { transition: all .6s ease-in-out; }
 .button:hover { transform: scale(1.3) translate(30px);}*/
 
+body {
+    margin-bottom: 75px;
+}
 
 body ul {
     list-style-type: none;
