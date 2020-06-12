@@ -3,11 +3,14 @@ Typography
 --------------------------------------------------------------*/
 
 
-h1 a {
-    font-size: 20px;
+.site-title {
+    font-size: 40px;
     text-decoration: none;
     color: darkblue;
-    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
 }
 
 h2 {
@@ -15,13 +18,17 @@ h2 {
 }
 
 p {
+    font-family: 'Sacramento', cursive;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: justify;
+    padding: 0 10%;
 }
 
 .carousel-inner p {
     font-size: 15px;
     color: yellow;
+    text-align: center;
 }
 
 @media (min-width: 400px) {
