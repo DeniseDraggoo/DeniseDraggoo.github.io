@@ -9,13 +9,17 @@ Images - reset
     margin-right: auto;
 }
 
-#sunIcon {
+.sunIcon {
     height: 35px;
     width: auto;
 }
 
+.sunIcon:hover {
+    height: 250px;
+}
 
-@media screen and (min-width: 450px) {
+
+@media screen and (min-width: 400px) {
 
     .planet_image {
         height: 25px;
@@ -25,7 +29,7 @@ Images - reset
     }
 
     .sunIcon {
-        height: 300px;
+        height: 35px;
         width: auto;
     }
 }
@@ -37,7 +41,7 @@ Images - reset
         margin-right: auto;
     }
     .sunIcon {
-        height: 100px;
+        height: 35px;
         width: auto;
     }
 }
