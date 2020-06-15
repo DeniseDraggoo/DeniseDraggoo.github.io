@@ -16,5 +16,8 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
     "load-grunt-tasks": "^5.1.0"
+  },
+  "dependencies": {
+    "oridomi": "^1.1.2"
   }
 }
