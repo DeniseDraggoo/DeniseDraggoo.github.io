@@ -30,7 +30,6 @@ ul a:link, a:visited {
   font-size: 20px;
   border-radius: 40px;
   width: 165px;
-
 }
 
 ul a:hover, a:active {
@@ -44,19 +43,13 @@ ul a:hover, a:active {
     padding: 10px;  
 }
 
-.kids_nav {
+.kids_nav, .html_css ul {
     margin: auto;
     width: 65%;
     border: 3px solid #20B2AA;
     padding: 10px; 
 }
 
-.html_css ul  {
-    margin: auto;
-    width: 65%;
-    border: 3px solid #20B2AA;
-    padding: 10px;
-}
 
 .html_css a {
     background-color: #FF69B4;
