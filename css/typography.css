@@ -2,58 +2,69 @@
 Typography
 --------------------------------------------------------------*/
 
- ul a:link, a:visited {
-     font-size: 14px;
-     padding: 10px 0px;
-     font-weight: bold;
- }
- footer {
-     font-size: 10px;
- }
-.parents h2 {
+
+.site-title {
+    font-size: 40px;
+    text-decoration: none;
+    color: darkblue;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+.main-area p {
+    font-family: 'Dawning of a New Day', cursive;
+    line-height: .8;
+    color: black;
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px 10%;
+    font-weight: bold;
+}
+
+.carousel-inner p {
+    font-size: 20px;
+    color: yellow;
     text-align: center;
 }
 
-h2 {
-    font: 35px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+@media (min-width: 400px) {
+    h1 a {
+        font-size: 80px;
+        text-align: center;
+        text-decoration: none;
+        color: darkblue;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .carousel-inner p {
+    font-size: 25px;
+    color: yellow;
+    }
+}
+
+@media (min-width: 800px) {
+h1 a {
+    font-size: 150px;
     text-align: center;
+    text-decoration: none;
+    color: darkblue;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+.carousel-inner p {
+    font-size: 35px;
+    color: yellow;
 }
-body {
-    font: 28px "Lucinda Sans Unicode", "Lucinda Grande", sans-serif;
+    
+    .main-area p {
+        font-size: 50px;
+        padding: 0 10%;
+    }
+
 }
-
-
-
-
-@media screen and (min-width: 400px) {
-
-    h2 {
-        font-size: 25px; 
-    }
-    body {
-        font-size: 14px;
-    }
-
-    ul a:link, a:visited {
-        font-size: 14px;
-        padding: 10px 0px;
-        font-weight: bold;
-    }
-    footer {
-        font-size: 10px;
-    }
-}
-@media screen and (min-width: 800px) {
-
-    h2 {
-        font-size: 35px;
-    } 
-    body {
-        font-size: 16px;
-    }
-    footer {
-        font-size: 14px;
-    }
-}
-
-
