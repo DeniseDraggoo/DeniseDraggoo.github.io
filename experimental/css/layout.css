@@ -2,12 +2,43 @@
 Layouts
 --------------------------------------------------------------*/
 
-body {
-    background: #ffedcc;
+main {
+    background-color: #7FFFD4;
+    
+}
+
+.main {
+    padding-bottom: 75px;
 }
 
 .content {
     padding: 2em;
+}
+
+#designs, #designs p, #designs img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 25px;  
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
 
 footer p {
@@ -18,8 +49,8 @@ footer p {
   background-color: midnightblue;
   color: white;
   text-align: center;
-    font-size: 15px;
-}
+  font-size: 15px;
+  margin-top: 50px;
 
 @media (min-width: 320px) {
 
