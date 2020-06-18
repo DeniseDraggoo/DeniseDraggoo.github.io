@@ -1,27 +1,22 @@
 /*--------------------------------------------------------------
-Images
+Images - reset 
 --------------------------------------------------------------*/
 
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
+body img {
+    height: 150px;
+    width: auto;
 }
 
 
-@media (min-width: 400px) {
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        width: 50%;
-        margin: auto;
-    }
+
+@media screen and (min-width: 500px) {
+  body img {
+    height: 100px;
+    width: auto;
+    }  
 }
 
-@media (min-width: 800px) {
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-        width: 30%;
-        margin: auto;
-    }
+@media screen and (min-width: 800px) {
+    
 }
