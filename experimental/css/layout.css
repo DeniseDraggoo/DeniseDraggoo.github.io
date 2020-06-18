@@ -22,6 +22,13 @@ main {
   margin-right: auto;
 }
 
+.design-links figure {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
 figure {
   border: 1px #cccccc solid;
   padding: 4px;
